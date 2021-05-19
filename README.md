@@ -1,31 +1,15 @@
-# Adonis fullstack application
+# AdonisJS 4
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+## Project goals
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+The goal of this project was to get a first approach with the AdonisJS framework. It tooks me approx. three days to realize what I've done so far. Not much but it was not that easy to use tailwind and to discover VueJs at the same time. I used a video the project on a video, the docs and google to achieve this project.
 
-## Setup
+## Project
 
-Use the adonis command to install the blueprint
+The project is about creating and getting used to routing, database connection, SQL, controllers, validators, views, models,... via Adonis commands.
+The goal of this app is to post Jobs, seeing all jobs from de database and editing/deleting the one you posted. You can create an account + login and logout from that account. 
 
-```bash
-adonis new yardstick
-```
+## Not deployed
 
-or manually clone the repo and then run `npm install`.
+You can see see the project by downloading the repo and using the commande ``` adonis serve --dev ``` in the terminal. 
 
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
